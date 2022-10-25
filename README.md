@@ -4,12 +4,12 @@ PyTorch implementation for the paper:
 
 - Title: Multi-Scale Receptive Field Graph Model for Emotion Recognition in Conversations
 
-- Authors: Jie Wei, Guanyu  Hu, Luu Anh Tuan, Xinyu  Yang, Wenjing Zhu
+- Authors: Jie Wei, Guanyu  Hu, Luu Anh Tuan, Xinyu Yang, Wenjing Zhu
 
 - Submitted to: ICASSP2023
 
 
-![img1](IMG.svg)
+![img1](IMG.jpg)
 
 
 ## Getting Started
