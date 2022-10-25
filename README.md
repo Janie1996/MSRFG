@@ -9,7 +9,7 @@ PyTorch implementation for the paper:
 - Submitted to: ICASSP2023
 
 
-![img1](img1.svg)
+![img1](IMG.svg)
 
 
 ## Getting Started
