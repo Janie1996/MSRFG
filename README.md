@@ -48,11 +48,19 @@ b. Download model checkpoint from [google-drive](https://drive.google.com/file/d
 
 ### 3. Train
 
-Coming soon ...
+1) the proposed model training
+- Run IEMOCAP
 
+  `python train\train_iemocap.py`
 
+- Run MELD
 
+  `python train\train_meld.py`
 
+2) fine-tune the Utterance Encoder
+
+- Wav2Vec 2.0
+- RoBERTa-Large
 
 If you have questions, feel free to contact weijie_xjtu@stu.xjtu.edu.cn
 
