@@ -112,7 +112,7 @@ def main():
 
     parser.add_argument('--dropout', type=float, default=0.2, metavar='dropout', help='dropout rate')
 
-    parser.add_argument('--batch_size', type=int, default=32, metavar='BS', help='batch size')
+    parser.add_argument('--batch_size', type=int, default=64, metavar='BS', help='batch size')
 
     parser.add_argument('--epochs', type=int, default=80, metavar='E', help='number of epochs')
 
@@ -121,7 +121,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    seed_everything(6851)
+    seed_everything(2293)
 
     train_loader, valid_loader, test_loader = get_loaders(dataset_name=args.dataset_name, batch_size=args.batch_size,subGraph=args.subGraph)
     if(args.dataset_name=='IEMOCAP'):
